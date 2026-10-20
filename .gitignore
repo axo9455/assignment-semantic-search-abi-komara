@@ -1,0 +1,19 @@
+# --- Rahasia: JANGAN pernah masuk ke git ---
+.env
+.env.*
+!.env.example
+
+# --- Virtual environment ---
+venv/
+.venv/
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- macOS ---
+.DS_Store
+
+# --- File sementara instalasi (bukan bagian project) ---
+.tmp_wheels/
